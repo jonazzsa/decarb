@@ -1,1 +1,94 @@
-/* You can add global styles to this file, and also import other style files */
+* {
+    box-sizing: border-box;
+}
+
+a {
+    color: #60b973;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ff781e
+}
+
+h1 {
+    color: #476069;
+    font-size: 2.75rem;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    text-align: center;
+    font-weight: 100;
+}
+
+h2 {
+    color: white;
+    font-weight: 100;
+    text-align: center;
+    margin-top: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: #f3eee8;
+    font-family: Lato
+}
+
+button {
+    padding: 0.75rem 1.25rem;
+    border-radius: 10px;
+    background-color: #60916a;
+    font-size: 1rem;
+    color: white;
+    border: none;
+    width: 100%;
+    cursor: pointer;
+    transition: all .5s;
+}
+
+button:hover {
+    background-color: white;
+    color: #60916a;
+}
+
+img {
+    max-width: 100%;
+}
+
+.error-message {
+    color: burlywood;
+    font-size: 0.875rem;
+}
+
+.auth-form {
+    text-align: center;
+    max-width: 600px;
+    margin: auto;
+    margin-top: 0.5rem;
+    padding: 3rem;
+    border-style: none;
+    border-width: 1px;
+    border-color: #d0d4d9;
+    border-radius: 12px;
+    background-color: #2e3e40;
+    box-shadow: 0 0 8px 0 rgb(0 0 0 / 15%);
+}
+
+.auth-form input {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 8px;
+    height: 48px;
+    border-radius: 8px;
+    border: none
+}
+
+.auth-form a {
+    font-size: 0.875rem;
+}
+
+.loading-message {
+    color: green;
+    text-transform: uppercase;
+}

@@ -1,0 +1,14 @@
+<h1>Login</h1>
+<div class="auth-form">
+    <h2>Leave us your details, we'd love to talk</h2>
+    <form (ngSubmit)="userLogin()">
+        <input type="email" name="email" placeholder="Email" [(ngModel)]="email" (keyup)="clearErrorMessage()" />
+        <input type="password" name="email" placeholder="Password" [(ngModel)]="password" (keyup)="clearErrorMessage()"/>
+        <button type="submit">Login</button>
+        <p *ngIf="isLoading" class="loading-message">Loading...</p>
+        <p class="error-message">{{errorMessage}}</p>
+        <p>
+            <a routerLink="/sign-up">Sign up here</a>
+        </p>
+    </form>
+</div>

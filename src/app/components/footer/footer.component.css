@@ -1,0 +1,46 @@
+a {
+    color: #989898
+}
+
+a:hover {
+    color: #ff781e
+}
+
+h4 {
+    color: #60916a;
+}
+
+footer {
+    background: #2e3e40;
+    margin-top: 3.75rem;
+    color: #989898
+}
+
+footer > div {
+    max-width: 1366px;
+    margin: auto;
+    padding: 1rem
+
+}
+
+@media (min-width:992px) { 
+    footer > div {
+       display: flex;
+       justify-content: space-between;
+    
+    }
+}
+
+.footer-logo {
+    padding: 5rem 0
+}
+
+.footer-logo img {
+    max-width: 180px;
+}
+
+footer .footer-legal {
+    padding-top: 3.75rem;
+    font-size: .8rem;
+}
+

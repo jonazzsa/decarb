@@ -1,0 +1,14 @@
+header {
+    color: white;
+    background-color: #2e3e40;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.logo img {
+    max-width: 180px
+}
